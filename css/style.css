@@ -10,6 +10,8 @@ body {
 
 .main {
     padding-top: 40px;
+    background: #ffffff;
+    overflow: hidden;
 }
 
 .container {
@@ -21,6 +23,7 @@ body {
 .menu {
     display: flex;
     flex-direction: column;
+    height: calc(100vh - 40px);
 }
 
 .menu-content__product-info {
@@ -55,14 +58,17 @@ body {
 .nav__item {
     border: 1px dashed #d1d1d1;
     padding: 4px 35px;
+    height: 34px;
 }
 
 .nav__img {
-    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav__img-container {
     width: 37px;
     height: 32px;
-    vertical-align: middle;
-    margin-right: 3px;
+    display: inline-block;
 }
 
 .nav__link {
@@ -227,11 +233,13 @@ body {
 
 .wrapper {
     max-width: 690px;
+    z-index: 1;
 }
 
 .background {
-    background: url('../img/f3733ed59a4b5a7edb8608d85a44f2ac.png') no-repeat center;
-    width: 1103px;
+    background: url('../img/f3733ed59a4b5a7edb8608d85a44f2ac.png') center;
+    background-repeat: repeat;
+    width: 9218px;
     height: 281px;
     position: absolute;
     top: -40px;
@@ -241,10 +249,6 @@ body {
 
 .ex-buy__container {
     padding-bottom: 80px;
-}
-
-.menu-content__nav {
-    margin-bottom: 332px;
 }
 
 .btn-callback {
@@ -264,4 +268,20 @@ body {
     font-weight: 400;
     line-height: 14.93px;
     margin-left: 53px;
+}
+
+.nav__img-ex-1 {
+    margin-left: 3px;
+}
+
+.nav__img-tech-1 {
+    margin-left: -2px;
+}
+
+.nav__img-tech-2 {
+    margin-left: -5px;
+}
+
+.phone-section {
+    margin-top: 90px;
 }
