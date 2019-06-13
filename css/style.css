@@ -285,3 +285,95 @@ body {
 .phone-section {
     margin-top: 90px;
 }
+
+.slider {
+    padding-top: 127px;
+    padding-bottom: 82px;
+    display: flex;
+}
+
+.slider__arrow {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.slider__arrow-left {
+    margin-right: 84px;
+    margin-left: 50px;
+    background: url('../img/arrow-left.png') no-repeat center;
+}
+
+.slider__arrow-right {
+    margin-left: 157px;
+    background: url('../img/arrow-right.png') no-repeat center;
+}
+
+.slider__title {
+    font-size: 60px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: -10px;
+    z-index: 1;
+}
+
+.product-menu {
+    padding: 53px 100px 60px 68px;
+    border: 1px dashed #d1d1d1;
+    width: 538px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.product-menu::after {
+    content: '';
+    background: url('../img/line-dashed-after.png') no-repeat center;
+    width: 1px;
+    height: 75px;
+    position: absolute;
+    top: -75px;
+    right: 22.7%;
+}
+
+.product-menu__link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #666666;
+    text-decoration: none;
+}
+
+.product-menu__link_active,
+.product-menu__link:hover {
+    color: #000000;
+    transition: .3s;
+}
+
+.slide {
+    display: flex;
+}
+
+.product-menu__img {
+    background: url('../img/detail.png') no-repeat center;
+    width: 389px;
+    height: 326px;
+    margin-left: 40px;
+    margin-top: -110px;
+    z-index: 1;
+}
+
+.product__info-bg {
+    background: url('../img/cable-bg.jpg') no-repeat center;
+    width: 1135px;
+    height: 792px;
+    position: absolute;
+    left: -1px;
+    top: -52px;
+}
+
+.phone {
+    z-index: 1;
+    display: flex;
+}
